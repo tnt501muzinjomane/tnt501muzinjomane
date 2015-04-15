@@ -1,0 +1,780 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>administration</title>
+<meta name="author" content="Muzi Mhlongo">
+<meta name="generator" content="WYSIWYG Web Builder 8 - http://www.wysiwygwebbuilder.com">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<style type="text/css">
+div#container
+{
+   width: 1204px;
+   position: relative;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+body
+{
+   text-align: center;
+   margin: 0;
+   background-color: #FFFFFF;
+   color: #000000;
+}
+</style>
+<style type="text/css">
+a
+{
+   color: #C8D7EB;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #C8D7EB;
+}
+a:active
+{
+   color: #C8D7EB;
+}
+a:hover
+{
+   color: #376BAD;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#Image1
+{
+   border: 0px #000000 solid;
+}
+#Shape1
+{
+   border-width: 0;
+   height: 56px;
+   width: 1197px;
+}
+#Shape2
+{
+   border-width: 0;
+   height: 49px;
+   width: 1199px;
+}
+#Shape3
+{
+   border-width: 0;
+   height: 199px;
+   width: 1201px;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+}
+#Image4
+{
+   border: 0px #000000 solid;
+}
+#Shape7
+{
+   border-width: 0;
+   height: 431px;
+   width: 223px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#SiteSearch1_keyword
+{
+   border: 1px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+.autocomplete
+{
+   position: absolute;
+   background: #FFFFFF;
+   border: 1px solid #C0C0C0;
+   font-family: Arial;
+   font-size: 13px;
+   list-style-type: none;
+   z-index: 999;
+   padding: 0;
+   top: 28px;
+   width: 278px;
+   margin: 0;
+}
+.autocomplete li
+{
+   padding: 0;
+   margin: 0;
+}
+.autocomplete li.selected
+{
+   background: #008;
+   color: #FFFFFF;
+}
+#SiteSearch1_label
+{
+   color: #C0C0C0;
+   cursor: text;
+   font-family: Arial;
+   font-size: 13px;
+}
+#Marquee1
+{
+   background-color: transparent;
+   background-image: url(images/Comp%20-%20Copy.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 1px #0000FF none;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   text-align: center;
+   -moz-box-shadow: 0px 0px 2px #000000;
+   -webkit-box-shadow: 0px 0px 2px #000000;
+   box-shadow: 0px 0px 2px #000000;
+}
+#Shape4
+{
+   border-width: 0;
+   height: 430px;
+   width: 264px;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#Shape5
+{
+   border-width: 0;
+   height: 37px;
+   width: 518px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#Shape9
+{
+   border-width: 0;
+   height: 365px;
+   width: 201px;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#Image5
+{
+   border: 0px #000000 solid;
+}
+#TabMenu1
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: bold;
+   list-style-type: none;
+   padding: 21px 0px 16px 18px;
+}
+#TabMenu1 li
+{
+   float: left;
+}
+#TabMenu1 a:link.active, #TabMenu1 a:visited.active, #TabMenu1 a:hover.active
+{
+   border-bottom: 1px solid #0000FF;
+   background-color: #0000FF;
+   color: #FFFFFF;
+   position: relative;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline;
+}
+#TabMenu1 a:link, #TabMenu1 a:visited
+{
+   padding: 9px 80px 16px 10px;
+   border: 3px solid #000000;
+   border-top-left-radius: 18px;
+   border-top-right-radius: 18px;
+   background-color: #7F7F7F;
+   color: #FFFFFF;
+   margin-right: 6px;
+   text-decoration: none;
+   border-bottom: none;
+}
+#TabMenu1 a:hover
+{
+   background: #FF0000;
+   color: #000000;
+   font-weight: normal;
+   text-decoration: underline;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   margin: 0px 4px 0px 0px;
+   color: #FFFFFF;
+   border: 3px #000000 solid;
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   border-radius: 8px;
+   background-color: #C0C0C0;
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   width: 144px;
+   height: 22px;
+   vertical-align: middle;
+   line-height: 22px;
+   text-align: center;
+   -moz-box-shadow: 1px 1px 0px #000000;
+   -webkit-box-shadow: 1px 1px 0px #000000;
+   box-shadow: 1px 1px 0px #000000;
+}
+#wb_CssMenu1 a:hover
+{
+   color: #376BAD;
+   background-color: #EDF2F8;
+   border: 3px #FF0000 solid;
+}
+#Shape10
+{
+   border-width: 0;
+   height: 325px;
+   width: 246px;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text14 div
+{
+   text-align: left;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text15 div
+{
+   text-align: left;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text16 div
+{
+   text-align: left;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text19 div
+{
+   text-align: left;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text20 div
+{
+   text-align: left;
+}
+#Shape6
+{
+   border-width: 0;
+   height: 235px;
+   width: 518px;
+}
+#wb_Form1
+{
+   background-color: #E6E6FA;
+   border: 0px #000000 solid;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#Editbox1
+{
+   border: 1px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#Editbox2
+{
+   border: 1px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Button1
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+}
+#Button2
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+}
+</style>
+<script type="text/javascript" src="./jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.core.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.blind.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.bounce.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.clip.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.drop.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.fold.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.scale.min.js"></script>
+<script type="text/javascript" src="./jquery.effects.slide.min.js"></script>
+<script type="text/javascript" src="./wb.slideshow.min.js"></script>
+<script type="text/javascript" src="./searchindex.js"></script>
+<script type="text/javascript">
+<!--
+var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
+var searchDatabase = new SearchDatabase();
+var searchResults_length = 0;
+var searchResults = new Object();
+function searchPage(features)
+{
+   var element = document.getElementById('SiteSearch1_keyword');
+   if (element.value.length != 0 || element.value != " ")
+   {
+      var value = unescape(element.value);
+      var keywords = value.split(" ");
+      searchResults_length = 0;
+      for (var i=0; i<database_length; i++)
+      {
+         var matches = 0;
+         var words = searchDatabase[i].title + " " + searchDatabase[i].description + " " + searchDatabase[i].keywords;
+         for (var j = 0; j < keywords.length; j++)
+         {
+            var pattern = new RegExp(keywords[j], "i");
+            var result = words.search(pattern);
+            if (result >= 0)
+            {
+               matches++;
+            }
+            else
+            {
+               matches = 0;
+            }
+         }
+         if (matches == keywords.length)
+         {
+            searchResults[searchResults_length++] = searchDatabase[i];
+         }
+      }
+      var wndResults = window.open('about:blank', '', features);
+      setTimeout(function()
+      {
+         var html = '<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Search results</title></head>';
+         html = html + '<body style="background-color:#FFFFFF;margin:0;padding:2px 2px 2px 2px;">';
+         html = html + '<span style="font-family:Arial;font-size:13px;color:#000000">';
+         for (var n=0; n<searchResults_length; n++)
+         {
+            html = html + '<b><a style="color:#0000FF" target="_parent" href="'+searchResults[n].url+'">'+searchResults[n].title +'</a></b><br>Description:' + searchResults[n].description + '<br>Keywords:' + searchResults[n].keywords +'<br><br>\n';
+         }
+         if (searchResults_length == 0)
+         {
+            html = html + 'No results';
+         }
+         html = html + '</span>';
+         html = html + '</body></html>';
+         wndResults.document.write(html);
+     },100);
+   }
+   return false;
+}
+// -->
+</script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   $("#SlideShow1").slideshow(
+   {
+      interval: 3000,
+      type: 'sequence',
+      effect: 'none',
+      direction: '',
+      effectlength: 2000
+   });
+   var $search = $('#SiteSearch1_form');
+   var $searchInput = $search.find('input');
+   var $searchLabel = $search.find('label');
+   if ($searchInput.val())
+   {
+      $searchLabel.hide();
+   }
+   $searchInput.focus(function()
+   {
+      $searchLabel.hide();
+   }).blur(function()
+   {
+      if (this.value == '')
+      {
+         $searchLabel.show();
+      }
+   });
+   $searchLabel.click(function()
+   {
+      $searchInput.trigger('focus');
+   });
+
+   var $autocomplete = $('<ul class="autocomplete"></ul>').hide().insertAfter('#SiteSearch1_keyword');
+   var selectedItem = null;
+   var setSelectedItem = function(item)
+   {
+      selectedItem = item;
+      if (selectedItem === null)
+      {
+         $autocomplete.hide();
+         return;
+      }
+      if (selectedItem < 0)
+      {
+         selectedItem = 0;
+      }
+      if (selectedItem >= $autocomplete.find('li').length)
+      {
+         selectedItem = $autocomplete.find('li').length - 1;
+      }
+      $autocomplete.find('li').removeClass('selected').eq(selectedItem).addClass('selected');
+      $autocomplete.show();
+   };
+   var populateSearchField = function()
+   {
+      $('#SiteSearch1_keyword').val($autocomplete.find('li').eq(selectedItem).text());
+      setSelectedItem(null);
+   };
+   $('#SiteSearch1_keyword').attr('autocomplete', 'off').keyup(function(event)
+   {
+      if (event.keyCode > 40 || event.keyCode == 8)
+      {
+         var data = new Array();
+         var keywordVal = $('#SiteSearch1_keyword').val();
+         for (i=0; i<database_length; i++)
+         {
+            var words = (searchDatabase[i].title + " " + searchDatabase[i].description + " " + searchDatabase[i].keywords).toLowerCase();
+            var array = words.split(" ");
+            data = $.merge(data, array);
+         }
+
+         var unique = new Array();
+         o:for(var i = 0; i < data.length; i++)
+         {
+            for(var j = 0; j < unique.length; j++)
+            {
+               if(unique[j]==data[i]) continue o;
+            }
+            unique[unique.length] = data[i];
+         }
+
+         unique.sort();
+         if (keywordVal.length && unique.length)
+         {
+            $autocomplete.empty();
+            $.each(unique, function(index, term)
+            {
+               term = term.toLowerCase();
+               if (term.indexOf(keywordVal) == 0)
+               {
+                  $('<li></li>').text(term).appendTo($autocomplete).mouseover(function()
+                  {
+                     setSelectedItem(index);
+                  }).click(populateSearchField);
+               }
+            });
+            setSelectedItem(0);
+         }
+         else
+         {
+            setSelectedItem(null);
+         }
+      }
+      else
+      if (event.keyCode == 38 && selectedItem !== null)
+      {
+         setSelectedItem(selectedItem - 1);
+         event.preventDefault();
+      }
+      else
+      if (event.keyCode == 40 && selectedItem !== null)
+      {
+         setSelectedItem(selectedItem + 1);
+         event.preventDefault();
+      }
+      else
+      if (event.keyCode == 27 && selectedItem !== null)
+      {
+         setSelectedItem(null);
+      }
+   }).keypress(function(event)
+   {
+      if (event.keyCode == 13 && selectedItem !== null)
+      {
+         populateSearchField();
+         event.preventDefault();
+      }
+   }).blur(function(event)
+   {
+      setTimeout(function()
+      {
+         setSelectedItem(null);
+      }, 250);
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="SlideShow1" style="position:absolute;left:392px;top:49px;width:687px;height:282px;z-index:6;">
+<img style="border-width:0;left:0px;top:0px;width:687px;height:282px;" src="images/103_2562%20%282%29.jpg" alt="" title="">
+<img style="border-width:0;left:0px;top:0px;width:687px;height:282px;display:none;" src="images/103_2563.jpg" alt="" title="">
+<img style="border-width:0;left:0px;top:0px;width:687px;height:282px;display:none;" src="images/103_2565%20%282%29.jpg" alt="" title="">
+<img style="border-width:0;left:0px;top:0px;width:687px;height:282px;display:none;" src="images/103_2566.jpg" alt="" title="">
+<img style="border-width:0;left:0px;top:0px;width:687px;height:282px;display:none;" src="images/103_2567%20%282%29.jpg" alt="" title="">
+</div>
+<div id="wb_Image1" style="position:absolute;left:0px;top:50px;width:1199px;height:270px;z-index:7;">
+<img src="images/img0009.png" id="Image1" alt="" border="0" style="width:1199px;height:270px;"></div>
+<div id="wb_Shape1" style="position:absolute;left:1px;top:322px;width:1197px;height:56px;z-index:8;">
+<img src="images/img0051.gif" id="Shape1" alt=""></div>
+<div id="wb_Shape2" style="position:absolute;left:0px;top:0px;width:1199px;height:49px;z-index:9;">
+<img src="images/img0066.gif" id="Shape2" alt=""></div>
+<div id="wb_Shape3" style="position:absolute;left:0px;top:819px;width:1201px;height:199px;z-index:10;">
+<img src="images/img0067.gif" id="Shape3" alt=""></div>
+<div id="wb_Image2" style="position:absolute;left:1104px;top:110px;width:47px;height:46px;z-index:11;">
+<a href="https://www.facebook.com/flightconnector?skip_nax_wizard=true&ref_type=bookmark" target="_blank"><img src="images/115.png" id="Image2" alt="" border="0" style="width:47px;height:46px;"></a></div>
+<div id="wb_Image3" style="position:absolute;left:1105px;top:162px;width:46px;height:45px;z-index:12;">
+<a href="https://twitter.com/@flightconnector" target="_blank"><img src="images/116.png" id="Image3" alt="" border="0" style="width:46px;height:45px;"></a></div>
+<div id="wb_Image4" style="position:absolute;left:1109px;top:219px;width:36px;height:37px;z-index:13;">
+<a href="http://www.google.com" target="_blank"><img src="images/google.png" id="Image4" alt="" border="0" style="width:36px;height:37px;"></a></div>
+<div id="wb_Shape7" style="position:absolute;left:883px;top:383px;width:223px;height:431px;z-index:14;">
+<img src="images/img0068.gif" id="Shape7" alt=""></div>
+<div id="wb_Text2" style="position:absolute;left:902px;top:395px;width:178px;height:29px;text-align:center;z-index:15;">
+<span style="color:#000000;font-family:Arial;font-size:24px;"><strong>Contact Us</strong></span></div>
+<div id="wb_SiteSearch1" style="position:absolute;left:879px;top:10px;width:276px;height:26px;z-index:16;">
+<form name="SiteSearch1_form" id="SiteSearch1_form" onsubmit="return searchPage(features)">
+<input type="text" id="SiteSearch1_keyword" style="position:absolute;left:0px;top:0px;width:276px;height:26px;line-height:26px;;" name="SiteSearch1_keyword" value="">
+<label id="SiteSearch1_label" style="position:absolute;left:1px;top:6px;" for="SiteSearch1_keyword">Search this website</label>
+</form>
+</div>
+<marquee direction="right" scrolldelay="90" scrollamount="6" behavior="alternate" loop="0" style="position:absolute;left:42px;top:285px;width:1104px;height:24px;z-index:17;" id="Marquee1" onmouseover="this.stop()" onmouseout="this.start()"><span style="color:#FFFFFF;font-family:Arial;font-size:21px;"><strong>&quot;Your Reliable Transport To OR Tambo International Airport&quot;</strong></span></marquee>
+<div id="wb_Shape4" style="position:absolute;left:79px;top:383px;width:264px;height:430px;z-index:18;">
+<img src="images/img0069.gif" id="Shape4" alt=""></div>
+<div id="wb_Text4" style="position:absolute;left:91px;top:395px;width:231px;height:72px;text-align:center;z-index:19;">
+<span style="color:#000000;font-family:Arial;font-size:21px;"><strong>Our Routes To And From OR Tambo International Airport</strong></span></div>
+<div id="wb_Text3" style="position:absolute;left:51px;top:225px;width:299px;height:48px;text-align:center;z-index:20;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:21px;"><strong><em>Flight Connector (Pty) Ltd<br>&quot;LaNkwali Transport&quot;</em></strong></span></div>
+<div id="wb_Shape5" style="position:absolute;left:353px;top:384px;width:518px;height:37px;z-index:21;">
+<img src="images/img0070.gif" id="Shape5" alt=""></div>
+<div id="wb_Text1" style="position:absolute;left:369px;top:394px;width:470px;height:24px;text-align:center;z-index:22;">
+<span style="color:#000000;font-family:Arial;font-size:21px;"><strong>ADMINISTRATORS ONLY</strong></span></div>
+<div id="wb_Shape9" style="position:absolute;left:894px;top:436px;width:201px;height:365px;z-index:23;">
+<img src="images/img0071.gif" id="Shape9" alt=""></div>
+<div id="wb_Text8" style="position:absolute;left:903px;top:448px;width:157px;height:80px;z-index:24;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Tel:&nbsp; (+268) 2404 6353<br>Cell: (+268) 7626 9498<br><br>Email: flightconnector@swazi.net</span></div>
+<div id="wb_Image5" style="position:absolute;left:61px;top:60px;width:288px;height:167px;z-index:25;">
+<img src="images/Shuttle.png" id="Image5" alt="" border="0" style="width:288px;height:167px;"></div>
+<div id="wb_TabMenu1" style="position:absolute;left:20px;top:312px;width:1133px;height:66px;z-index:26;overflow:hidden;">
+<ul id="TabMenu1">
+<li><a href="./index.html">Home</a></li>
+<li><a href="./profile.html">Profile</a></li>
+<li><a href="./services.html">Services</a></li>
+<li><a href="./gallery.html">Gallery</a></li>
+<li><a href="./bookings.php">Bookings</a></li>
+<li><a href="./testimonials.php">Testimonials</a></li>
+</ul>
+</div>
+<div id="wb_CssMenu1" style="position:absolute;left:123px;top:890px;width:924px;height:42px;text-align:center;z-index:27;">
+<a href="./index.html">Home</a>
+<a href="./profile.html">Profile</a>
+<a href="./services.html">Services</a>
+<a href="./gallery.html">Gallery</a>
+<a href="./bookings.php">Bookings</a>
+<a href="./testimonials.php">Testimonials</a>
+</div>
+<div id="wb_Shape10" style="position:absolute;left:86px;top:476px;width:246px;height:325px;z-index:28;">
+<img src="images/img0072.gif" id="Shape10" alt=""></div>
+<div id="wb_Text5" style="position:absolute;left:366px;top:943px;width:436px;height:33px;z-index:29;">
+<span style="color:#000000;font-family:'Times New Roman';font-size:16px;">Copyright </span><span style="color:#000000;font-family:Arial;font-size:13px;">&#169; <script language="javascript" type="text/ecmascript">
+var today = new Date()
+var year = today.getFullYear()
+document.write(year)
+</script> TnT Technologies Inc All Rights Reserved</span></div>
+<div id="wb_Text12" style="position:absolute;left:91px;top:483px;width:238px;height:16px;z-index:30;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Departure destinations in Swaziland</strong></span></div>
+<div id="wb_Text13" style="position:absolute;left:92px;top:508px;width:181px;height:64px;z-index:31;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Manzini - The George Hotel<br>Matsapha - Esibayeni Lodge<br>Malandala's<br>Ezulwini - Gables &amp; Hotels</span></div>
+<div id="wb_Text14" style="position:absolute;left:91px;top:594px;width:196px;height:32px;z-index:32;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Mbabane - Nandos<br>Oshoek Border Gate</span></div>
+<div id="wb_Text15" style="position:absolute;left:89px;top:637px;width:238px;height:32px;z-index:33;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Departure destinations from OR Tambo International Airport</strong></span></div>
+<div id="wb_Text16" style="position:absolute;left:88px;top:676px;width:236px;height:96px;z-index:34;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Terminal B Department Airport 12.00 pm<br>Sandton Gautrain Station&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 12.30 pm<br>Stop at ULZU&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 15.15 pm<br>Arriving in Swaziland&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 16.30 pm</span></div>
+<div id="wb_Text19" style="position:absolute;left:90px;top:753px;width:159px;height:16px;z-index:35;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><a href="./services.html">For more details click here</a></span></div>
+<div id="wb_Text17" style="position:absolute;left:273px;top:530px;width:62px;height:16px;z-index:36;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">07.00 am</span></div>
+<div id="wb_Text18" style="position:absolute;left:270px;top:601px;width:62px;height:16px;z-index:37;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">07.30 am</span></div>
+<div id="wb_Text20" style="position:absolute;left:908px;top:546px;width:167px;height:38px;z-index:38;">
+<span style="color:#000000;font-family:Arial;font-size:17px;"><strong>&nbsp; We are based in Mbabane Swaziland</strong></span></div>
+<div id="wb_Shape6" style="position:absolute;left:353px;top:430px;width:518px;height:235px;z-index:39;">
+<img src="images/img0073.gif" id="Shape6" alt=""></div>
+<div id="wb_Form1" style="position:absolute;left:410px;top:440px;width:389px;height:213px;z-index:40;">
+<form name="Form1" method="post" action="login-exec.php" id="Form1">
+<div id="wb_Text6" style="position:absolute;left:10px;top:15px;width:64px;height:16px;z-index:0;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Username</span></div>
+<input type="text" id="Editbox1" style="position:absolute;left:84px;top:15px;width:198px;height:23px;line-height:23px;z-index:1;" name="Editbox1" value="">
+<div id="wb_Text7" style="position:absolute;left:10px;top:49px;width:64px;height:16px;z-index:2;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Password</span></div>
+<input type="password" id="Editbox2" style="position:absolute;left:84px;top:49px;width:198px;height:23px;line-height:23px;z-index:3;" name="Editbox2" value="">
+<input type="submit" id="Button1" name="" value="Login" class="btn btn-success" style="position:absolute;left:83px;top:89px;width:96px;height:25px;z-index:4;">
+<input type="reset" id="Button2" name="" value="Reset" class="btn btn-warning" style="position:absolute;left:188px;top:89px;width:96px;height:25px;z-index:5;">
+</form>
+</div>
+</div>
+</body>
+</html>
